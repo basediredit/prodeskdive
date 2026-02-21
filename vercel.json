@@ -1,11 +1,10 @@
 {
   "version": 2,
-<<<<<<< fix/vercel-static-build
+
   "builds": [
     { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
   ],
-=======
->>>>>>> add-seeded-db
+
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
